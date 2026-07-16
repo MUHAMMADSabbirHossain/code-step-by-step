@@ -1,14 +1,17 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./output.css" rel="stylesheet">
-    <title>Tailwind css setup with cli</title>
-</head>
-<body>
-    <h1 class="text-yellow-700 text-4xl">Tailwind css setup with cli</h1>
-
-    <h2 class="bg-pink-600">Hello</h2>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+    <title>How Tailwind CSS Work</title>
+  </head>
+  <body>
+    <ul class="bg-black text-white m-0 flex [&>*]:flex">
+      <li><a class="p-3 hover:bg-zinc-900" href="#home">Home</a></li>
+      <li><a class="p-3 hover:bg-zinc-900" href="#news">News</a></li>
+      <li><a class="p-3 hover:bg-zinc-900" href="#contact">Contact</a></li>
+      <li><a class="p-3 hover:bg-zinc-900" href="#About">about</a></li>
+    </ul>
+  </body>
 </html>
